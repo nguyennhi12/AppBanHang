@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appbanhangnew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".action.User.DonHang.DanhGiaActivity"></activity>
+        <activity android:name=".action.Admin.TheoDoiSP.ChartHoatDongActivity" />
+        <activity android:name=".action.Admin.TheoDoiSP.ChiTietBanChayActivity" />
+        <activity android:name=".action.Admin.TheoDoiSP.DanhSachSPBanChayActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Delete.DeleteLoaiSPActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Delete.DeleteSanPhamActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Delete.DeleteActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Delete.DeleteChiTietSPActivity" />
+        <activity android:name=".action.Admin.DonHang.ChiTietLoadDonHangAdminActivity" />
+        <activity android:name=".action.Admin.DonHang.ChiTietDonHangAdMinActivity" />
+        <activity android:name=".action.Admin.DonHang.XacNhanDonHangActivity" />
+        <activity android:name=".action.User.DonHang.ChiTietLoadDonHangActivity" />
+        <activity android:name=".action.User.DonHang.ChiTietDonHangActivity" />
+        <activity android:name=".action.User.DonHang.DonMuaActivity" />
+        <activity android:name=".action.User.DonHang.VanChuyenDonHangActivity" />
+        <activity android:name=".action.User.DonHang.DonHangActivity" />
+        <activity
+            android:name=".action.User.GioHang.EditGioHangActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".action.User.GioHang.GioHangActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Edit.EditChiTietActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Edit.EditSanPhamActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Edit.EditLoaiSPActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Add.AddChiTietSPActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Add.AddSanPhamActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Add.AddLoaiSPActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Edit.EditActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.Add.AddActivity" />
+        <activity
+            android:name=".action.Admin.XemSanPham.PopChiTietSPActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".action.Admin.XemSanPham.ChiTietSPAdminActivity" />
+        <activity android:name=".action.Admin.XemSanPham.SanPhamActivity" />
+        <activity android:name=".action.Admin.TheoDoiSP.TheoDoiSPActivity" />
+        <activity android:name=".action.Admin.ThaoTacQuanLy.ThaoTacQuanLyActivity" />
+        <activity android:name=".action.Admin.XemSanPham.DanhSachSanPhamActivity" />
+        <activity android:name=".action.User.Search.SearchActivity" />
+        <activity android:name=".action.User_Admin.ThietLapTaiKhoan.DoiMatKhauActivity" />
+        <activity android:name=".action.User_Admin.ThietLapTaiKhoan.QuenMKActivity" />
+
+        <activity android:name=".action.User_Admin.ThietLapTaiKhoan.ThietLapTaiKhoanActivity" />
+        <activity android:name=".action.User.SanPham.DiaChiActivity" />
+        <activity android:name=".action.User_Admin.ThietLapTaiKhoan.InformationActivity" />
+        <activity
+            android:name=".action.User.SanPham.PopChonSPActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".action.User.SanPham.PopVanChuyenActivity"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".action.User_Admin.Account.DangKiActivity" />
+        <activity android:name=".action.User_Admin.Account.AccountActivity" />
+        <activity android:name=".action.User_Admin.Account.UserActivity" />
+        <activity android:name=".action.User_Admin.DanhmucSPMainActivity" />
+        <activity android:name=".action.User.SanPham.ChitietSanPhamActivity" />
+        <activity android:name=".action.User.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>
